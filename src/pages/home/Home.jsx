@@ -5,7 +5,7 @@ import{FaLinkedin, FaGithub,  FaHtml5, FaReact, FaNodeJs, FaCss3Alt,  FaGitAlt, 
 import {SiGmail} from 'react-icons/si'
 import Homeprojects from '../../componets/Homeprojects'
 import Homeabout from  '../../componets/Homeabout'
-import { Outlet } from "react-router-dom";
+
 
 export default function Home() {
  

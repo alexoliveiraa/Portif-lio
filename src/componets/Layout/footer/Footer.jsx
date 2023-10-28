@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedin} from "react-icons/fa";
 import {SiGmail} from 'react-icons/si'
 
 export default function Footer() {
