@@ -12,7 +12,7 @@ export default function routes() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/"  element={<Home />} />
+          <Route path="/Portifolio"  element={<Home />} />
           <Route path="/projects" element={<Projetcs />} />
           <Route path="/about" element={<About />} />
         </Routes>
