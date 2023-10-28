@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+
+  height: auto;
+  padding: 10px;
+  border-top: solid 2px #6188fc;
+  flex-wrap: wrap;
+}
+.socialmedialinkedinfooter a {
+  
+  list-style: none;
+  cursor: pointer;
+  color: #0072b1;
+  text-decoration: none;
+} 
+
+.socialmediagmailfooter a {
+   
+  list-style: none;
+  cursor: pointer;
+  color: #ea4335;
+ text-decoration: none;
+}
+
+.socialmediagithubfooter a {
+ color:  #171515;
+  list-style: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.medialistfooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  list-style: none;
+  
+}
+
+.socialmediagmailfooter svg,
+.socialmedialinkedinfooter svg,
+.socialmediagithubfooter svg {
+  height: auto;
+  width: 30px;
+ 
+ 
+}
+.mynamefooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   margin: 5px;
+  font-size: 35px;
+  font-family: 'Monoton', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #000000;
+  
+  text-shadow: 10px 5px 25px black;
+  letter-spacing: 3px;
+}
+
+footer p {
+  margin: 0 10px 0 10px;
+  font-weight: 400;
+}

@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+.header {
+width: 100%;
+  height: auto;
+  /* min-height: 125px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 15px 40px 0px 40px; 
+  border-bottom: solid 1px #000000;
+  position: fixed;
+    
+   background-color: #f2f2f5;
+
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  justify-content: space-around;
+
+  
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+justify-content: space-around;
+ margin: 15px;
+  gap:50px;
+}
+.listitem {
+  
+
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  
+ /* margin-left: 20px; */
+  
+  
+}
+.listitem:hover {
+  border-bottom: solid #000000;
+}
+.myname {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    /* background: linear-gradient(45deg, #09098f, #6188fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+  font-size: 45px;
+  /* font-family: "Dela Gothic One", cursive; */
+  font-family:  'Monoton', sans-serif;
+  text-shadow: 10px 5px 25px black;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  text-transform: uppercase;
+  /* font-weight: 700; */
+  color: #000000;
+  
+  margin:10px 10px 0px 10px ;
+  /* border: #6188fc solid 2px ; */
+  /* border-radius: 8px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+  &:hover {
+    cursor: pointer;
+  }
+
+}
+.active {
+  border-bottom: solid #000000;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+}
+
+.hamburguer {
+  display: none;
+  cursor: pointer;
+  margin: 10px;
+  align-self: center;
+  
+}
+.bar{
+  display: block;
+  width: 28px;
+  height: 3px;
+  border-radius: 2px;
+  margin: 5px auto;
+  background-color: #000000;
+  transition: all 0.3s ease-in-out;
+}
+@media (max-width:768px) {
+  .hamburguer{
+    display: block;
+    
+    
+  }
+  .hamburguer.activesmall .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburguer.activesmall .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburguer.activesmall .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg) ;
+  }
+  .list {
+    right: -100%;
+    position: fixed;
+    /* left: -100%; */
+    top: 125px;
+    border-radius: 5%;
+    text-align: center;
+    flex-direction: column;
+    width: auto;
+    transition: 0.3s;
+    background-color: #e0e0e9;
+    padding: 20px;
+    
+  }
+  .listitem{
+    margin: 16px 0;
+  }
+  .list.activesmall {
+    right: 0;
+    
+    
+  }
+}
+

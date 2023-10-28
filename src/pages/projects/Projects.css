@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+
+.mainprojects {
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px 0 20px 0;
+    background-color: #f2f2f5;
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+.titleprojects {
+    text-transform: uppercase;
+    font-family: 'Monoton', sans-serif;
+    margin: 10px 0 0 0;
+    color: #000000;
+    font-size: 35px;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    font-weight: 400;
+    text-shadow: 10px 5px 25px black;
+    
+    
+  }
+  #title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 55px 20px 20px 20px;
+    
+  }
+
+  .mainhomeprojects {
+    display: flex;
+    justify-content: space-evenly;
+    padding:20px 0 20px 0;
+    background-color: #f2f2f5;
+    height: auto;
+    
+    width: 100%;
+    
+    flex-wrap: wrap;
+}
+@media (max-width:768px){
+  .titleprojects {
+    margin: 20px 0 0 0;
+    
+  }
+  
+}
