@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, BrowserRouter, Routes } from "react-router-dom";
+import {BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./componets/Layout/header/Navbar";
 import Home from "./pages/home/Home";
 import Projetcs from "./pages/projects/Projects";
@@ -9,7 +9,7 @@ import Footer from "./componets/Layout/footer/Footer";
 export default function routes() {
   return (
     <div>
-      <BrowserRouter>
+      <Router>
         <Navbar />
         <Routes>
           <Route path="/"  element={<Home />} />
@@ -17,7 +17,7 @@ export default function routes() {
           <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }
