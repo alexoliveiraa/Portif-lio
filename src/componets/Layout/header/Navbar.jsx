@@ -42,7 +42,7 @@ export default function Navbar() {
           <ul className="list" onMouseLeave={() => close()}>
             <li>
               <NavLink
-                to="/"
+                to="/Portifolio"
                 onClick={() => backtop()}
                 
                 id="linkhome"
