@@ -9,7 +9,7 @@ footer {
 
   height: auto;
   padding: 10px;
-  border-top: solid 2px #6188fc;
+  border-top: solid 1px #000000;
   flex-wrap: wrap;
 }
 .socialmedialinkedinfooter a {
@@ -57,13 +57,14 @@ footer {
   justify-content: center;
   align-items: center;
    margin: 5px;
-  font-size: 35px;
-  font-family: 'Monoton', sans-serif;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 0px 0px rgb(7, 7, 7);
   text-transform: uppercase;
   font-weight: 400;
   color: #000000;
   
-  text-shadow: 10px 5px 25px black;
+  
   letter-spacing: 3px;
 }
 
